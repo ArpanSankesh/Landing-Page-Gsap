@@ -16,6 +16,7 @@ section{
     background-color: #000;
     color: #fff;
     padding: 0 40px;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -83,8 +84,7 @@ section{
 
 .content .left{
     flex-basis: 50%;
-    padding: 100px 0 ;
-   
+    padding: 100px 0 ;   
 }
 
 
@@ -92,15 +92,15 @@ section{
     font-size: 5rem;
     font-weight: 500;
     text-transform: uppercase;
-    line-height: 120px;
-    padding-bottom:50px ;
+    line-height: 100px;
+    padding-bottom:80px ;
     border-bottom: 1.5px solid #ffffff9e;
 }
 
 .left img{
     display: inline ;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: #fff;
     border: 6px solid #000;
